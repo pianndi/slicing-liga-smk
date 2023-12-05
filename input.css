@@ -1,0 +1,19 @@
+@tailwind base; 
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Hanken Grotesk', sans-serif;
+}
+.nav-link {
+  @apply flex flex-row items-center gap-2;
+}
+.active {
+  @apply text-accent;
+}
+.padding-el {
+  @apply max-w-6xl mx-auto px-6;
+}
+.download {
+  background: #fff;
+}
