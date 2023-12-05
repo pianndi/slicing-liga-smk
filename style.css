@@ -972,6 +972,11 @@ video {
   border-color: rgb(240 243 255 / var(--tw-border-opacity));
 }
 
+.bg-\[\#fff0e5\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 240 229 / var(--tw-bg-opacity));
+}
+
 .bg-accent {
   --tw-bg-opacity: 1;
   background-color: rgb(58 16 229 / var(--tw-bg-opacity));
@@ -995,10 +1000,6 @@ video {
 .bg-ternary {
   --tw-bg-opacity: 1;
   background-color: rgb(250 203 59 / var(--tw-bg-opacity));
-}
-
-.bg-\[\#ff0e5\] {
-  background-color: #ff0e5;
 }
 
 .p-20 {
